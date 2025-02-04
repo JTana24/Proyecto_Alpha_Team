@@ -10,9 +10,9 @@
         <EntityTypeShape EntityType="oferta_academicaModel.institucion" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
         <EntityTypeShape EntityType="oferta_academicaModel.institucion_carrera" Width="1.5" PointX="7.5" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="oferta_academicaModel.periodo" Width="1.5" PointX="0.75" PointY="7.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="oferta_academicaModel.profesor" Width="1.5" PointX="3" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="oferta_academicaModel.profesor" Width="1.5" PointX="3.375" PointY="4.25" IsExpanded="true" />
         <EntityTypeShape EntityType="oferta_academicaModel.profesor_telefono" Width="1.5" PointX="5.25" PointY="6.625" IsExpanded="true" />
-        <EntityTypeShape EntityType="oferta_academicaModel.tipo_identificacion" Width="1.5" PointX="0.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="oferta_academicaModel.tipo_identificacion" Width="1.875" PointX="0.75" PointY="5.25" IsExpanded="true" />
         <AssociationConnector Association="oferta_academicaModel.fk_carrera_curso" ManuallyRouted="false" />
         <AssociationConnector Association="oferta_academicaModel.fk_carrera_institucion" ManuallyRouted="false" />
         <AssociationConnector Association="oferta_academicaModel.fk_carrera_rector" ManuallyRouted="false" />

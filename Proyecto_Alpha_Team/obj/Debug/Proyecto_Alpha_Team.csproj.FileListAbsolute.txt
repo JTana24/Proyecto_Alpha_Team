@@ -93,3 +93,7 @@ C:\Users\bfernandez\Documents\GitHub\Proyecto_Alpha_Team\Proyecto_Alpha_Team\bin
 C:\Users\bfernandez\Documents\GitHub\Proyecto_Alpha_Team\Proyecto_Alpha_Team\bin\roslyn\vbc.rsp
 C:\Users\bfernandez\Documents\GitHub\Proyecto_Alpha_Team\Proyecto_Alpha_Team\bin\roslyn\VBCSCompiler.exe
 C:\Users\bfernandez\Documents\GitHub\Proyecto_Alpha_Team\Proyecto_Alpha_Team\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\bfernandez\Documents\GitHub\Proyecto_Alpha_Team\Proyecto_Alpha_Team\bin\EntityFramework.dll
+C:\Users\bfernandez\Documents\GitHub\Proyecto_Alpha_Team\Proyecto_Alpha_Team\bin\EntityFramework.SqlServer.dll
+C:\Users\bfernandez\Documents\GitHub\Proyecto_Alpha_Team\Proyecto_Alpha_Team\bin\EntityFramework.xml
+C:\Users\bfernandez\Documents\GitHub\Proyecto_Alpha_Team\Proyecto_Alpha_Team\bin\EntityFramework.SqlServer.xml

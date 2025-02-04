@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="oferta_academicaModelStoreContainer" CdmEntityContainer="oferta_academicaEntities">
+    <EntitySetMapping Name="carrera">
+      <EntityTypeMapping TypeName="oferta_academicaModel.carrera">
+        <MappingFragment StoreEntitySet="carrera">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="profesor_id" ColumnName="profesor_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="curso">
+      <EntityTypeMapping TypeName="oferta_academicaModel.curso">
+        <MappingFragment StoreEntitySet="curso">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="nivel" ColumnName="nivel" />
+          <ScalarProperty Name="carrera_id" ColumnName="carrera_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="institucion">
+      <EntityTypeMapping TypeName="oferta_academicaModel.institucion">
+        <MappingFragment StoreEntitySet="institucion">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="institucion_carrera">
+      <EntityTypeMapping TypeName="oferta_academicaModel.institucion_carrera">
+        <MappingFragment StoreEntitySet="institucion_carrera">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="institucion_id" ColumnName="institucion_id" />
+          <ScalarProperty Name="carrera_id" ColumnName="carrera_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="periodo">
+      <EntityTypeMapping TypeName="oferta_academicaModel.periodo">
+        <MappingFragment StoreEntitySet="periodo">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="año" ColumnName="año" />
+          <ScalarProperty Name="numero_periodo" ColumnName="numero_periodo" />
+          <ScalarProperty Name="fecha_inicio" ColumnName="fecha_inicio" />
+          <ScalarProperty Name="fecha_final" ColumnName="fecha_final" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="profesor">
+      <EntityTypeMapping TypeName="oferta_academicaModel.profesor">
+        <MappingFragment StoreEntitySet="profesor">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="identificacion" ColumnName="identificacion" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="nombre_completo" ColumnName="nombre_completo" />
+          <ScalarProperty Name="fecha_nacimiento" ColumnName="fecha_nacimiento" />
+          <ScalarProperty Name="tipo_identificacion_id" ColumnName="tipo_identificacion_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="profesor_telefono">
+      <EntityTypeMapping TypeName="oferta_academicaModel.profesor_telefono">
+        <MappingFragment StoreEntitySet="profesor_telefono">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="profesor_id" ColumnName="profesor_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tipo_identificacion">
+      <EntityTypeMapping TypeName="oferta_academicaModel.tipo_identificacion">
+        <MappingFragment StoreEntitySet="tipo_identificacion">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

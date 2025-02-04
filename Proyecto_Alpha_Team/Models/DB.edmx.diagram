@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c4526e0b6c2c4f76b32a92cb12b5a5be" Name="Diagram1">
+        <EntityTypeShape EntityType="oferta_academicaModel.carrera" Width="1.5" PointX="5.25" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="oferta_academicaModel.curso" Width="1.5" PointX="7.5" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="oferta_academicaModel.institucion" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="oferta_academicaModel.institucion_carrera" Width="1.5" PointX="7.5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="oferta_academicaModel.periodo" Width="1.5" PointX="0.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="oferta_academicaModel.profesor" Width="1.5" PointX="3" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="oferta_academicaModel.profesor_telefono" Width="1.5" PointX="5.25" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="oferta_academicaModel.tipo_identificacion" Width="1.5" PointX="0.75" PointY="5.25" IsExpanded="true" />
+        <AssociationConnector Association="oferta_academicaModel.fk_carrera_curso" ManuallyRouted="false" />
+        <AssociationConnector Association="oferta_academicaModel.fk_carrera_institucion" ManuallyRouted="false" />
+        <AssociationConnector Association="oferta_academicaModel.fk_carrera_rector" ManuallyRouted="false" />
+        <AssociationConnector Association="oferta_academicaModel.fk_institucion_carrera" ManuallyRouted="false" />
+        <AssociationConnector Association="oferta_academicaModel.fk_profesor_telefono" ManuallyRouted="false" />
+        <AssociationConnector Association="oferta_academicaModel.fk_tipo_identificacion_profesor" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

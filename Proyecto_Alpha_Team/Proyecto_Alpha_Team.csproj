@@ -167,6 +167,7 @@
     <Compile Include="Controllers\cursosController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\institucionesController.cs" />
+    <Compile Include="Controllers\institucion_carreraController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
